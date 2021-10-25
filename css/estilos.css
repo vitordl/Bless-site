@@ -1,0 +1,153 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+.container-fluid {
+    padding: 0 !important;
+  }
+
+
+
+
+#nav-target a {
+    color: white;
+}
+
+
+.painel{
+    height: auto;
+}
+
+
+#segunda{
+    background: beige;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.texto{
+    text-align: justify;
+    padding: 10px;
+}
+
+.bg-custom{
+    width: 330px;
+    background: rgba(7, 7, 7, 0.658);
+    border-radius: 400px;
+    
+
+}
+
+
+
+
+#terceira{
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+
+
+
+.texto2{
+    text-align: justify;
+    padding:15px;
+    
+}
+
+
+
+#rodape{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(5, 0, 8);
+    
+    
+}
+
+#rodape i{
+    font-size: 2em;
+    padding-left: 20px;
+}
+
+
+
+/* media queries */
+
+@media (max-width: 575.98px) {
+    .faction{
+        padding: 10px;
+    }
+
+    
+}
+ 
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+    .faction{
+        padding: 10px;
+    }
+  }
+ 
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+    .faction{
+        padding: 10px;
+    }
+  }
+ 
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+    .faction{
+        padding: 10px;
+    }
+  }
+ 
+ @media (min-width: 1200px) {
+    
+  }
+ 
+
+
+
+/* 
+    <!-- Home -->
+    <section id="home" class="d-flex">
+        <div class="align-self-center capa">
+            
+            <div class="carousel slide" data-ride="carousel" id="carousel-spotify"> <!-- inicio carousel slide-->
+                <div class="carousel-inner">  <!--inicio carousel-inner-->
+
+                    <div class="carousel-item active">
+                        <!-- <h1>Música para todos</h1>
+
+                        <a href="" class="btn btn-lg btn-custom btn-roxo">aproveite o spotify free</a>
+                        <a href="" class="btn btn-lg btn-custom btn-branco">obter spotify premium</a> -->
+                        <img src="imgs/blessgrande+logo.png" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="carousel-item">
+                        <h1>As melhores rádios</h1>
+
+                        <a href="" class="btn btn-lg btn-custom btn-branco">
+                            <i class="fas fa-music"></i> ouça agora</a>
+                    </div>
+                </div>  <!--fim carousel-inner-->
+
+                <!-- Controles  -->
+                <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev">
+                    <i class="fas fa-angle-left fa-3x "></i>
+                </a>
+
+                <a href="#carousel-spotify" class="carousel-control-next" data-slide="next">
+                    <i class="fas fa-angle-right fa-3x "></i>
+                </a>
+
+
+            </div>  <!-- fim carousel slide-->
+        </div>
+    </section>
+
+*/

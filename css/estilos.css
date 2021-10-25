@@ -1,4 +1,4 @@
-body{
+html, body{
     background-color: black;
     overflow-x: hidden;
     font-family: 'Zen Old Mincho', serif;
@@ -33,13 +33,6 @@ body{
     padding: 10px;
 }
 
-.bg-custom{
-    width: 330px;
-    background: rgba(7, 7, 7, 0.658);
-    border-radius: 400px;
-    
-
-}
 
 
 
@@ -80,29 +73,22 @@ body{
 /* media queries */
 
 @media (max-width: 575.98px) {
-    .faction{
-        padding: 10px;
+    .texto-complexo{
+        display: none;
     }
-
     
 }
  
  @media (min-width: 576px) and (max-width: 767.98px) { 
-    .faction{
-        padding: 10px;
-    }
+   
   }
  
  @media (min-width: 768px) and (max-width: 991.98px) { 
-    .faction{
-        padding: 10px;
-    }
+   
   }
  
  @media (min-width: 992px) and (max-width: 1199.98px) {
-    .faction{
-        padding: 10px;
-    }
+    
   }
  
  @media (min-width: 1200px) {

@@ -100,7 +100,9 @@ p.texto2{
     margin:auto;
 }
 
-
+.navbar-toggler{
+    font-size: 2.5rem;
+}
 
 
 #rodape{
@@ -136,9 +138,24 @@ p.texto2{
     body, html{
         font-size: 50%;
     }
+
+    #nav-target a {
+        color: white;
+        font-size: 2rem;
+        
+    }
+
+    .navbar-toggler{
+        font-size: 3.5rem;
+    }
+    
+
+   
 }
  
  @media (min-width: 576px) and (max-width: 767.98px) { 
+
+    
     
   }
  

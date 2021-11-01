@@ -54,6 +54,18 @@ html, body{
     
 }
 
+p.texto{
+    font-size: 1.6rem;
+}
+
+h1.texto{
+    font-size: 3.5rem;
+}
+
+h3.texto{
+    font-size: 1.6rem;
+}
+
 
 
 
@@ -65,12 +77,19 @@ html, body{
     
 }
 
-
-
-
 .texto2{
     text-align: justify;
     padding:15px;
+}
+
+
+h2.texto2{
+    font-size: 2.4rem;
+}
+
+p.texto2{
+    
+    font-size: 1.4rem;
     
 }
 
@@ -92,8 +111,12 @@ html, body{
     
 }
 
+#rodape h5{
+    font-size: 1.4rem;
+}
+
 #rodape i{
-    font-size: 5em;
+    font-size: 3rem;
     padding-left: 20px;
 }
 
@@ -108,6 +131,10 @@ html, body{
 
     .painel-texto h1{
         font-size: 2.8rem;
+    }
+
+    body, html{
+        font-size: 50%;
     }
 }
  

@@ -1,7 +1,8 @@
 html, body{
     background-color: black;
     overflow-x: hidden;
-    font-family: 'Zen Old Mincho', serif;
+    font-family: 'Noto Sans', serif;
+    font-size: 62.5%;
 }
 
 .container-fluid {
@@ -9,20 +10,37 @@ html, body{
   }
 
 
-
-
 #nav-target a {
     color: white;
+    font-size: 1.4rem;
+    
+}
+
+.nav-item{
+    padding-left: 15px;
+}
+
+.logo{
+    font-size: 1.6rem;
 }
 
 
 .painel{
     height: auto;
+    max-height: 90vh;
+}
+
+.painel-texto h1{
+    font-size: 3.8rem;
+}
+
+.painel-texto p{
+    font-size: 1.4rem;
 }
 
 
 #segunda{
-    background: beige;
+    background: white;
     padding-top: 50px;
     padding-bottom: 50px;
     
@@ -31,6 +49,9 @@ html, body{
 .texto{
     text-align: justify;
     padding: 10px;
+    width: 90%;
+    margin: auto;
+    
 }
 
 
@@ -55,6 +76,14 @@ html, body{
 
 
 
+.faction{
+    width: 90%;
+    margin:auto;
+}
+
+
+
+
 #rodape{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -64,7 +93,7 @@ html, body{
 }
 
 #rodape i{
-    font-size: 2em;
+    font-size: 5em;
     padding-left: 20px;
 }
 
@@ -73,18 +102,24 @@ html, body{
 /* media queries */
 
 @media (max-width: 575.98px) {
-    .texto-complexo{
+    .painel-texto p{
         display: none;
     }
-    
+
+    .painel-texto h1{
+        font-size: 2.8rem;
+    }
 }
  
  @media (min-width: 576px) and (max-width: 767.98px) { 
-   
+    
   }
  
  @media (min-width: 768px) and (max-width: 991.98px) { 
-   
+    .faction{
+        width: 90%;
+        margin:auto;
+    }
   }
  
  @media (min-width: 992px) and (max-width: 1199.98px) {

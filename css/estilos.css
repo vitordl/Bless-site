@@ -118,8 +118,11 @@ p.texto2{
 }
 
 #rodape i{
+
     font-size: 3rem;
-    padding-left: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -136,7 +139,7 @@ p.texto2{
     }
 
     body, html{
-        font-size: 50%;
+        font-size: 55%;
     }
 
     #nav-target a {
@@ -147,6 +150,21 @@ p.texto2{
 
     .navbar-toggler{
         font-size: 3.5rem;
+    }
+
+    
+
+    p.texto2{
+        font-size: 1.6rem;
+    }
+
+
+    .texto{
+        width: 95%;
+    }
+
+    .faction{
+        width:95%;
     }
     
 
